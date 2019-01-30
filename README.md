@@ -2,9 +2,11 @@
 ![Java](https://img.shields.io/badge/Language-Java-orange.svg)
 
 ## Project Details
-We are all used to the idea of sorting data in order to process it more effectively. But for some applications the opposite is required: to have data presented to us randomly jumbled. Music players like iTunes, iPods and iPhones have a “shuffle” setting for example: this could be called an anti-“boredom” application.
-It turns out that randomly shuffling data is not an easy thing to get right on a computer even if using an accurate random number generator: in fact it's easy to get wrong! For more information on why that is so have a look at the resources here, attend the lectures, and read some old reviews of the iTunes shuffle facility here.
-The original “Fisher-Yates” shuffle algorithm was popularised by Donald Knuth. It runs in O(n) in the worst case, but uses direct addressing on an array. What if it turns out that the data we want to shuffle is not stored on an array? We will use linked list. Which then allows flexible length which is what is required for implementing play lists in music players. 
+We are all used to the idea of sorting data in order to process it more effectively. But for some applications the opposite is required: to have data presented to us randomly jumbled. Music players like iTunes, iPods, and iPhones have a “shuffle” setting, for example, this could be called an anti-“boredom” application.
+It turns out that randomly shuffling data is not an easy thing to get right on a computer even if using an accurate random number generator, in fact, it's easy to get wrong!
+
+
+The original “Fisher-Yates” shuffle algorithm was popularised by Donald Knuth. It runs in O(n) in the worst case but uses direct addressing on an array. What if it turns out that the data we want to shuffle is not stored on an array? We will use a linked list. Which then allows flexible length which is what is required for implementing play lists in music players.  
 
 ## Goal
 In this project we will implement sorting and shuffling on a linked list, adapting basic algorithmic strategies. We will use this algorithms to program a simple “MusicPlayer” class which includes the functionality to shuffle.
